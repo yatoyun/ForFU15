@@ -15,6 +15,11 @@ def main():
         print(f"Round {i+1}: {result}")
 
     print(f"Heads: {heads}, tails: {tails}")
+    if heads > tails:
+        result = "won"
+    else:
+        result = "lost"
+    print(f"You {result}!")
 
 
 if __name__ == "__main__":
