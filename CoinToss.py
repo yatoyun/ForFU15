@@ -26,7 +26,7 @@ def main():
         result = "won"
     else:
         result = "lost"
-    print(f"You {result}!")
+    print(f"{name} {result}!")
 
 
 if __name__ == "__main__":
