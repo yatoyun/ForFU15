@@ -1,7 +1,14 @@
 import random
+from unicodedata import name
 
 
 def main():
+    # ask name
+    print("Who are you?")
+    name = input(">")
+    print(f"Hello, {name}!")
+
+    # play the game : Heads or Tails
     print("Tossing a coin...")
     heads = tails = 0
     for i in range(5):
